@@ -19,4 +19,14 @@
 
 .icon_col {
   background-color: gray;
+}
+
+#hello7 {
+  position: relative;
+  margin-top: 100%;
+}
+
+#mag {
+  margin-left: -7%;
+  margin-top: 0;
 }/*# sourceMappingURL=register.css.map */
