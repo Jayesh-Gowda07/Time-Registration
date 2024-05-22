@@ -306,6 +306,10 @@
   height: 104px;
 }
 
+#Add {
+  padding-right: 0%;
+}
+
 .container {
   height: 100vh;
   display: flex;
