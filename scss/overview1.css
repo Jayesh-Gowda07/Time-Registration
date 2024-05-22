@@ -1,0 +1,60 @@
+.hello {
+  position: relative;
+  margin-top: 120%;
+}
+
+.col2 {
+  padding-right: 1%;
+  height: 10%;
+}
+
+.font {
+  font-size: small;
+}
+
+.text-muted {
+  font-size: large;
+}
+
+.card {
+  background: linear-gradient(90deg, #799ab5, #ffffff, #716f6f);
+  border: none;
+  color: #fff;
+}
+
+.card h4 {
+  font-weight: 700;
+}
+
+.card .data {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #007bff;
+}
+
+.chart {
+  height: 300px;
+  margin-top: 20px;
+}
+
+.hello2 {
+  margin-left: 15%;
+  margin-top: 6%;
+}
+
+.hello3 {
+  margin-left: 127%;
+}
+
+.digit {
+  padding-left: 9%;
+}
+
+.cards {
+  margin-top: 6%;
+}/*# sourceMappingURL=overview1.css.map */
