@@ -1,0 +1,22 @@
+.sizes {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.first {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.bor-col:hover {
+  border-left: 2px;
+  border-color: darkgoldenrod;
+}
+
+.color {
+  color: gray;
+}
+
+.icon_col {
+  background-color: gray;
+}/*# sourceMappingURL=register.css.map */
