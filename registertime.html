@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="register.scss">
 </head>
 <body>
-  <div class="container-fluid bg-tertiary sizes mt-3">
+  <div class="container-fluid bg-light sizes mt-3">
     <div class="container">
 
      
@@ -52,40 +52,41 @@
       <form>
         <div class="row">
           <div class="col-4">
-              <div class="form-group form-outline ">
+              <div class="form-group position-relative ">
                   <span class="placeholder col-6 bg-light mt-3">From</span>
-                  <input type="text" class="form-control border-0 shadow rounded " id="from" placeholder="Enter email">
+                  <input type="text" class="form-control border-0 shadow rounded mt-0" id="from" placeholder="From">
+                  <!-- <div class="position-absolute translate-middle end-0 bottom-0 rounded-circle"><i class="bi bi-x-lg"></i></div> -->
                   <i class="fas fa-user ms-3"></i>
                 </div>
           </div>
           <div class="col-4">
-              <div class="form-group">
+              <div class="form-group position-relative">
                   <span class="placeholder col-6 bg-light mt-3">To</span>
-                  <input type="text" class="form-control border-0 shadow rounded " id="to" placeholder="Enter email">
-                  
+                  <input type="text" class="form-control border-0 shadow rounded " id="to" placeholder="To">
+                  <!-- <div class="position-absolute translate-middle end-0 bottom-0 rounded-circle"><i class="bi bi-x-lg"></i></div> -->
               </div>
           </div>
           <div class="col-4">
               <div class="form-group">
                   <span class="placeholder col-6 bg-light mt-3">Duration</span>
-                  <input type="text" class="form-control border-0 shadow rounded " id="duration" placeholder="Enter email">
+                  <input type="text" class="form-control border-0 shadow rounded " id="duration" placeholder="Duration">
               </div>
           </div>
         </div>
       
         <div class="form-group">
           <span class="placeholder col-6 bg-light mt-3">Client name</span>
-          <input type="text" class="form-control border-0 shadow rounded " id="clientname" placeholder="Enter email">
+          <input type="text" class="form-control border-0 shadow rounded " id="clientname" placeholder="Client name">
         </div>
-        <div class="form-group">
+        <div class="form-group position-relative">
           <span class="placeholder col-6 bg-light mt-3">Case Number</span>
           <input type="number" class="form-control border-0 shadow rounded" id="casenumber" placeholder="Case Number">
-          <div class="position-absolute translate-middle me-5 rounded-circle"><i class="bi bi-x-lg"></i></div>
+          <!-- <div class="position-absolute translate-middle end-0 bottom-0 rounded-circle"><i class="bi bi-x-lg"></i></div> -->
         </div>
         <div class="form-group position-relative">
             <span class="placeholder col-6 bg-light mt-3">Case</span>
             <input type="text" class="form-control border-0 shadow rounded" id="case" placeholder="Case Number">
-            <div class="position-absolute translate-middle me-5 rounded-circle"><i class="bi bi-close"></i></div>
+            <div class="position-absolute rounded-circle bottom-0 start-50"></div>
           </div>
         <div class="form-group">
             <span class="placeholder col-6 bg-light mt-3">Type of work</span>

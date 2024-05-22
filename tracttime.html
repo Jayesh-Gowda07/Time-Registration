@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="register.scss">
 </head>
 <body>
-  <div class="container-fluid bg-tertiary sizes mt-3">
+  <div class="container-fluid bg-light sizes">
     <div class="container">
 
      
       <div class="row first">
           <div class="col-4"></div>
-          <div class="col-4 d-flex justify-content-center">
+          <div class="col-4 mt-3 d-flex justify-content-center">
             <div class="dropdown">
               <button class="btn btn-tertiary dropdown-toggle " type="button" id="dropdownMenuButton" data-bs-toggle="modal" data-bs-target="#drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Today
@@ -28,8 +28,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4 h3 d-flex justify-content-end">
-              <span><i class="btn bi bi-trash3-fill " data-bs-toggle="modal" data-bs-target="#delete"></i></span>
+          <div class="col-4 d-flex justify-content-end mt-3">
+              <span><i class="btn bi bi-trash3-fill h3" data-bs-toggle="modal" data-bs-target="#delete"></i></span>
           </div>
       </div>
       <!-- row-ends -->
@@ -51,25 +51,24 @@
 
       <form>
         <div class="row">
-          <div class="col-4">
+          <div class="col-5">
               <div class="form-group form-outline ">
-                  <span class="placeholder col-6 bg-light mt-3">From</span>
-                  <input type="text" class="form-control border-0 shadow rounded " id="from" placeholder="Enter email">
-                  <i class="fas fa-user ms-3"></i>
+                  <div class="placeholder col-6 bg-light mt-3">From</div>
+                  <div class="placeholder col-6 bg-light">14:50:20</div>
                 </div>
           </div>
-          <div class="col-4">
+          <div class="col-2">
               <div class="form-group">
-                  <span class="placeholder col-6 bg-light mt-3">To</span>
-                  <input type="text" class="form-control border-0 shadow rounded " id="to" placeholder="Enter email">
+                  <span class="placeholder col-6 bg-light mt-2"></span>
+                  <button type="text" class="form-control border-0 shadow rounded mt-2 " id="to" >00:01:20</button>
                   
               </div>
           </div>
-          <div class="col-4">
+          <div class="col-5 h3 d-flex justify-content-end mt-4">
               <div class="form-group">
-                  <span class="placeholder col-6 bg-light mt-3">Duration</span>
-                  <input type="text" class="form-control border-0 shadow rounded " id="duration" placeholder="Enter email">
-              </div>
+                  <span class=" bg-light "></span>
+                  <i class="mt-6 bi bi-pause-circle-fill h2"></i>
+                </div>
           </div>
         </div>
       
@@ -80,7 +79,7 @@
         <div class="form-group">
           <span class="placeholder col-6 bg-light mt-3">Case Number</span>
           <input type="number" class="form-control border-0 shadow rounded" id="casenumber" placeholder="Case Number">
-          <div class="position-absolute translate-middle me-5 rounded-circle"><i class="bi bi-x-lg"></i></div>
+          <!-- <div class="position-absolute translate-middle me-5 rounded-circle"><i class="bi bi-x-lg"></i></div> -->
         </div>
         <div class="form-group position-relative">
             <span class="placeholder col-6 bg-light mt-3">Case</span>
@@ -97,7 +96,7 @@
         <div class="form-group postion-relative">
             <span class="placeholder col-6 bg-light mt-3">Description</span>
             <textarea rows="4" class="form-control border-0 shadow rounded" placeholder="Type in/record your description"></textarea>
-            <div class="position-absolute bottom-0 end-0 translate-middle me-5 btn icon_col border-tertiary rounded-circle"><i class="bi bi-mic"></i></div>
+            <div class="position-absolute bottom-0 end-0 translate-middle me-5 mb-4 btn icon_col border-tertiary rounded-circle"><i class="bi bi-mic"></i></div>
         </div>
         <div>
           <button type="button" class=" mt-3 btn btn-dark form-control border-0 shadow rounded" data-bs-toggle="modal" data-bs-target="#myModal"><i class="bi bi-plus-circle-fill h5 me-2"></i>Submit</button>
